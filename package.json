@@ -1,0 +1,12 @@
+{
+  "name": "accounting-erp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Company-scoped accounting ERP with invoices, GST, inventory, ledgers and reports.",
+  "scripts": {
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend start",
+    "db:setup": "npm --prefix backend run db:setup",
+    "build": "npm --prefix frontend run build"
+  }
+}
